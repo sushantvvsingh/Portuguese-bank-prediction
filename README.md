@@ -9,4 +9,5 @@ Data
 The data and the dictionary can be found here(https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 
 dataset used : bank-additional-full.csv
+
 model used : SVM Linear Classifier
