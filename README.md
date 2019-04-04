@@ -8,5 +8,5 @@ The marketing team wants to launch another campaign, and they want to learn from
 Data
 The data and the dictionary can be found here(https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 
-#dataset used : bank-additional-full.csv
-#model used : SVM Linear Classifier
+dataset used : bank-additional-full.csv
+model used : SVM Linear Classifier
