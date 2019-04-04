@@ -2,7 +2,7 @@
 """
 Created on Thu Apr  4 09:11:12 2019
 
-@author: Shushant
+@author: Sushant
 """
 
 import numpy as np
@@ -23,8 +23,6 @@ encoder_column=[str(i) for i in range(temp.shape[1])]
 for value,i in enumerate(encoder_column):
     dataset[i]=temp[:,value]
 
-dataset=dataset.drop("pdays",axis=1)
-non_catagorical_values.remove("pdays")
 dataset=dataset.drop(categorical_values,axis=1)
 
 dataset["y"]=[1 if i=="yes" else 0 for i in dataset["y"]]
